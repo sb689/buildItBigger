@@ -4,6 +4,7 @@ package com.udacity.gradle.builditbigger;
 import android.content.Intent;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityFragm
     public void receivedJokeData(String joke) {
         Intent intent = new Intent(this, DisplayActivity.class);
         intent.putExtra(DisplayActivity.BUNDLE_EXTRA_JOKE, joke);
+        Log.d(TAG, "");
         startActivity(intent);
     }
 }

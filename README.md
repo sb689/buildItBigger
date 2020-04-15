@@ -1,5 +1,3 @@
-This android application was built as part of an android development online course. A started code was provided to complete the project.
-
 ## Project Overview
 
 This android application contains multiple flavors that uses
@@ -37,6 +35,6 @@ flavors allow for much bigger projects with minimal added complexity.
 * Factor reusable functionality into a Java library
 * Factor reusable Android functionality into an Android library
 * Configure a multi project build to compile your libraries and app
-* Use the Gradle App Engine plugin to deploy a backend
+* Use the Gradle App Engine plugin to deploy a backend 
 * Configure an integration test suite that runs against the local App Engine development server
 
