@@ -41,7 +41,8 @@ flavors allow for much bigger projects with minimal added complexity.
 ### Note
 
 This application uses local App Engine development server for the backend. Please update build.gradle (Module:backend), point to local cloud SDK home 
-#### appengine {  // App Engine tasks configuration
-    tools.cloudSdkHome="/Users/sujatabaral/Documents/google-cloud-sdk"
+
+appengine {  // App Engine tasks configuration
+    tools.cloudSdkHome="/Users/Documents/google-cloud-sdk"
 }   
 
