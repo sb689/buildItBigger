@@ -38,3 +38,10 @@ flavors allow for much bigger projects with minimal added complexity.
 * Use the Gradle App Engine plugin to deploy a backend 
 * Configure an integration test suite that runs against the local App Engine development server
 
+### Note
+
+This application uses local App Engine development server for the backend. Please update build.gradle (Module:backend), point to local cloud SDK home 
+#### appengine {  // App Engine tasks configuration
+    tools.cloudSdkHome="/Users/sujatabaral/Documents/google-cloud-sdk"
+}   
+
