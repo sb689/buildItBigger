@@ -6,6 +6,7 @@ of four modules. A Java library that provides jokes, a Google Cloud Endpoints
 (GCE) project that serves those jokes, an Android Library containing an
 activity for displaying jokes, and an Android app that fetches jokes from the
 GCE module and passes them to the Android Library for display.
+This project was developed as part of Udacity Android nanodegree course.
 
 ## Why this Project
 
@@ -41,8 +42,9 @@ flavors allow for much bigger projects with minimal added complexity.
 ### Note
 
 This application uses local App Engine development server for the backend. Please update build.gradle (Module:backend), point to local cloud SDK home 
-
-appengine {  // App Engine tasks configuration
+```
+appengine {
     tools.cloudSdkHome="/Users/Documents/google-cloud-sdk"
-}   
+} 
+```
 
