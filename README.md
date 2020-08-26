@@ -1,13 +1,15 @@
 ## Project Overview
 
-This android application contains multiple flavors that uses
-multiple libraries and Google Cloud Endpoints. The finished app will consist
-of four modules. A Java library that provides jokes, a Google Cloud Endpoints
-(GCE) project that serves those jokes, an Android Library containing an
-activity for displaying jokes, and an Android app that fetches jokes from the
-GCE module and passes them to the Android Library for display. 
-This project was developed as part of Udacity Android nanodegree course.
-A starter code was provided. 
+This android application contains multiple flavors that use
+multiple libraries and Google Cloud Endpoints. The finished app consists
+of four modules. A Java library that provides jokes, a Google Cloud 
+Endpoints(GCE)project that serves those jokes, an Android Library 
+containing an activity for displaying jokes, and an Android app 
+that fetches jokes from the GCE module and passes them to the 
+Android Library for display. 
+
+This project was developed as part of Udacity Android nanodegree 
+course. A starter code was provided. 
 
 ## Why this Project
 
@@ -23,22 +25,13 @@ flavors allow for much bigger projects with minimal added complexity.
 * Project contains a Google Cloud Endpoints module that supplies jokes from the Java library. Project loads jokes from GCE module via an async task.
 * Project contains connected tests to verify that the async task is indeed loading jokes.
 * Project contains paid/free flavors. The paid flavor has no ads, and no unnecessary dependencies.
-
-#### Optional Requirements
-
-* Write a Gradle task that starts the GCE dev server, runs all the Android tests, and shuts down the dev server.
+* A Gradle task should start the GCE dev server, runs all the Android tests, and shuts down the dev server.
 * The free app variant displays interstitial ads between the main activity and the joke-displaying activity.
 * The app displays a loading indicator while the joke is being fetched from the server.
-
-## Learning objectives
-
-* Role of Gradle in building Android Apps and manage app of increasing complexity
-* Add free and paid flavors to an app, and set up build to share code between them
-* Factor reusable functionality into a Java library
-* Factor reusable Android functionality into an Android library
-* Configure a multi project build to compile your libraries and app
-* Use the Gradle App Engine plugin to deploy a backend 
 * Configure an integration test suite that runs against the local App Engine development server
+
+In summary, project finctionalities shoul be factored into libraries and project should have
+multiple flavors. All of these will be handeled by Gradle build tools.
 
 ### Note
 
